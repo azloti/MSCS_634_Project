@@ -1,6 +1,6 @@
 # Titanic Dataset Analysis
 
-The full report can be found at [Report.pdf](./Report.pdf)
+The full report can be found at [Report.pdf](./report.pdf)
 
 Residency project made by:
 
