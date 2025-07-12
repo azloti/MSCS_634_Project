@@ -72,3 +72,32 @@ Both models performed almost identically. Cross-validation confirmed that both m
 - Ridge regression was not needed: Linear regression worked well enough
 
 Overall, the modeling process was smooth, and the results make sense given the data. The engineered features and log transformation were key to getting more reliable predictions.
+
+
+# Deliverable 3: Classification, Clustering, and Pattern Mining
+## Findings
+
+This was the most interesting part of the assignment. We tried a few different machine learning techniques to see what patterns would emerge of the Titanic data:
+
+## Classification
+
+Decision Trees and k-NN both did a solid job at predicting survival. Our assumptions were confirmed: being female, in first class, and younger all boosted survival odds. Hyperparameter tuning helped get a bit more accuracy, but the findings stayed the same.
+
+## Clustering
+K-Means split passengers into three groups. Including Sex as a feature made a huge difference:
+
+- One cluster was basically all men in third class, traveling solo or in small groups, with the lowest fares and survival rates.
+- Another cluster was mostly first-class women, older, paying the highest fares, and with the best survival odds. Not a bad place to be.
+- The last group was mostly women and kids in third class, traveling in bigger families, with mid-range fares and surprisingly decent survival rates.
+
+Overall, gender, class, and group size really shaped who made it out.
+
+## Pattern Mining
+
+The association rules were very clear: surviving was primarily about being female and in first class. Young adult males in third class with cheap tickets had by far the worst odds.
+
+## Takeaways & Conclusion
+
+These patterns we uncovered can matter for tasks such as risk assessment, emergency planning, and even customer segmentation in travel or insurance. The data shows how social status, gender, and age can shape outcomes, and that can be useful for designing better policies and services. 
+
+Overall, the Titanic data was very interesting for seeing how machine learning can dig up real, actionable insights. Seeing historical data pop up when using data mining techniques made for a fascinating task, and the data was not too complex to understand when viewing it manually, which made the assignment somewhat easier.
