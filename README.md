@@ -1,5 +1,7 @@
 # Titanic Dataset Analysis
 
+The full report can be found at [Report.pdf](./Report.pdf)
+
 Residency project made by:
 
 1. Adrian-Nichita Zloteanu
